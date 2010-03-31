@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+
+<TimePicker android:id="tpkalarminitial" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
+<TimePicker android:id="tpkalarmgetup" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
+<Button android:text="Set Alarm" android:id="btnsetalarm" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="Advanced options" android:id="btnadvancedops" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</LinearLayout>
