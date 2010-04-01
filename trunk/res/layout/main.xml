@@ -10,8 +10,8 @@
     android:text="@string/hello"
     />
 
-<TimePicker android:id="tpkalarminitial" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
-<TimePicker android:id="tpkalarmgetup" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
-<Button android:text="Set Alarm" android:id="btnsetalarm" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
-<Button android:text="Advanced options" android:id="btnadvancedops" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<TimePicker android:id="@+id/alarminitial" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
+<TimePicker android:id="@+id/alarmgetup" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
+<Button android:text="Set Alarm" android:id="@+id/setalarm" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="Advanced options" android:id="@+id/advancedops" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
 </LinearLayout>
