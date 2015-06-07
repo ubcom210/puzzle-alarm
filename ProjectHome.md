@@ -1,0 +1,1 @@
+The puzzle alarm is just an alarm clock but with the addition that you can set a really "GET UP" time and when you get to that time before dismissing the alarm there will be a kind of puzzle that needs to be solved. When you have to do that, you'll be out of bed.
